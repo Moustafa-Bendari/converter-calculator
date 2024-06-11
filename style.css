@@ -26,3 +26,13 @@ main{
     display: flex;
     flex-direction: column;
 }
+.btn{
+    background-color: black;
+    color: white;
+    padding-block: 10px;
+
+}
+
+input{
+    padding: 10px;
+}

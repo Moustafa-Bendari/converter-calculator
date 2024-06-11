@@ -14,14 +14,21 @@
             <div class="conv-div">
                 <label for="kb_to_b_input">Kilobytes (KB) to Bytes (B)</label>
                 <input id="kb_to_b_input" type="text">
-                <button id="kb_to_b_conv_btn">Convert to B</button>
+                <button id="kb_to_b_conv_btn"class="btn">Convert to B</button>
                 <p id="b_result">{{banswer}} B</p>
             </div>
             <div class="conv-div">
+<<<<<<< HEAD
+                <label for="b_to_Mb_input">bytes (B) to MegaBytes (Mb)</label>
+                <input id="b_to_Mb_input" type="text">
+                <button id="b_to_Mb_conv_btn" class="btn">Convert to MB</button>
+                <p id="Mb_result">{{Mbanswer}} MB</p>
+=======
                 <label for="kb_to_b_input">Bytes (B) to Megabits (Mb)</label>
                 <input id="kb_to_b_input" type="text" v-model="bytesInput">
                 <button id="kb_to_b_conv_btn" @click="submitBytes()">Convert to B</button>
                 <p id="mb_result" v-show = "Boolean(mbAnswer)">{{mbAnswer}} Mb</p>
+>>>>>>> origin/main
             </div>
         </main>
            
