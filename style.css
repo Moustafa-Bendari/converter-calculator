@@ -2,4 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: pink solid 2px;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    gap:20px;
+}
+
+.container{
+    display: flex;
+    height: 400px;
+    width: max-content;
+    gap: 100px;
+}
+
+.conv-div{
+    display: flex;
+    flex-direction: column;
 }
