@@ -8,7 +8,10 @@ Vue.createApp({
     },
     methods: {
         submitBytes() {
-            this.$ref.
+            this.mbAnswer = this.BtoMb(parseInt(this.bytesInput, 10));
+        },
+        BtoMb(bytes) {
+            return (bytes * 8) / 10**6;
         }
 
 
