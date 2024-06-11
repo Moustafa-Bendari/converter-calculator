@@ -21,7 +21,7 @@
                 <label for="kb_to_b_input">Bytes (B) to Megabits (Mb)</label>
                 <input id="kb_to_b_input" type="text" v-model="bytesInput">
                 <button id="kb_to_b_conv_btn" @click="submitBytes()">Convert to B</button>
-                <p id="mb_result">{{mbanswer}} Mb</p>
+                <p id="mb_result" v-show = "Boolean(mbAnswer)">{{mbAnswer}} Mb</p>
             </div>
         </main>
            
