@@ -1,11 +1,15 @@
 Vue.createApp({
     data() {
-            return{
-                
+        return {
+            mbAnswer: "",
+            bytesInput: ""
 
-            }
+        }
     },
     methods: {
+        submitBytes() {
+            this.$ref.
+        }
 
 
     },
@@ -13,4 +17,4 @@ Vue.createApp({
 
 
     }
-})
+}).mount("#app")
